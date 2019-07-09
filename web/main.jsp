@@ -1102,6 +1102,31 @@ $("#search").autocomplete({
 
 
 </script>
+		<script>
+			var arr = new Array();
+			$(function(){
+				<%
+				for(int i=0;i<gn.namearr.size();i++)
+					{
+				%>
+						arr.push("<%=gn.namearr.get(i)%>");
+				<%
+					System.out.println(gn.namearr.get(i));
+					}
+				%>
+				$('#search').autocomplete({
+					source:function(e,i)
+					{
+						consol.log(i.item);
+					},
+					focus:function(e,i)
+					{
+						return false;
+						//evel.preventDefault();
+					}
+				});
+			});
+		</script>
 		<!-- Bootstrap core JavaScript
 			================================================== -->
 		<!-- Placed at the end of the document so the pages load faster -->
@@ -1113,5 +1138,6 @@ $("#search").autocomplete({
 		<script src="js/jquery.appear.js"></script>
 		<script src="js/SmoothScroll.min.js"></script>
 		<script src="js/theme-scripts.js"></script>
+		<script src="js/jquery-3.4.1.js"></script>
 	</body>
 </html>
