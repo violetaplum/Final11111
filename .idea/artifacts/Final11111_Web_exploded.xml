@@ -1,0 +1,49 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Final11111:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Final11111_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Final11111/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Final11111" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="JAX-WS-Apache Axis" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/annotations-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/axis.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/catalina-ant.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/catalina-ha.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/catalina-storeconfig.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/catalina-tribes.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/catalina.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/commons-discovery-0.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/commons-logging-1.0.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/cos.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/ecj-4.6.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/el-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/jasper-el.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/jasper.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/jaspic-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/jaxrpc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/jsp-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/log4j-1.2.8.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/ojdbc6.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/saaj.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/servlet-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-coyote.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-jdbc.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-jni.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-util-scan.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-util.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/tomcat-websocket.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/websocket-api.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/../오후반/jar/wsdl4j-1.5.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
